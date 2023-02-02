@@ -3,14 +3,8 @@ farbfeld
 flat-remix-gtk
 gnome-browser-connector
 google-chrome
-insomnia-bin
 nextdns-unprivileged
 octopi
 onedrive-abraunegg
-slack-desktop
-timeshift
 trizen-git
 ttf-courier-prime
-tuxi-git
-yay
-youtube-viewer-git
