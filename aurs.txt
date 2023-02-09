@@ -1,0 +1,5 @@
+aic94xx-firmware
+mkinitcpio-firmware
+trizen
+upd72020x-fw
+wd719x-firmware
