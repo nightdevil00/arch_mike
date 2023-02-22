@@ -51,8 +51,8 @@
 #https://medium.com/clarusway/how-to-use-git-github-without-asking-for-authentication-always-passwordless-usage-of-private-git-8c32489bc2e9
 #https://blog.nillsf.com/index.php/2021/05/27/github-sso-using-password-protected-ssh-keys
 
-project=$(basename `pwd`)
-githubdir="arch_mike"
+project=$(arch_mike `pwd`)
+githubdir="nightdevil00"
 echo "-----------------------------------------------------------------------------"
 echo "this is project https://github.com/$githubdir/$project"
 echo "-----------------------------------------------------------------------------"
@@ -64,7 +64,7 @@ sudo git config --system core.editor nano
 #git config --global credential.helper 'cache --timeout=32000'
 git config --global push.default simple
 
-git remote set-url origin git@github.com-edu:ariser-installer/$project
+#git remote set-url origin git@github.com-edu:ariser-installer/$project
 
 echo "Everything set"
 
