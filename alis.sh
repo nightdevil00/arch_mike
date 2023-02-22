@@ -1094,6 +1094,8 @@ function network() {
 
     pacman_install "networkmanager"
     arch-chroot "${MNT_DIR}" systemctl enable NetworkManager.service
+    arch-chroot "${MNT_DIR}" systemctl enable bluetooth.service
+    arch-chroot "${MNT_DIR}" rfkill unblock all
 }
 
 function virtualbox() {
